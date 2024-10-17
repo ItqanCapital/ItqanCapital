@@ -1,0 +1,232 @@
+.Contact-footer-section{
+    display: flex;
+    justify-content: center;
+    background: url("/Frame 2.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.Contact-footer-section-wallpaper{
+    padding-bottom: 95px;
+    /* background: url("/Frame 106.png");
+    background-repeat: no-repeat;
+    background-position: bottom left; */
+}
+.Contact-footer-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 88px;
+}
+.Contact-info-data {
+    width: 100%;
+}
+.Contact-footer-form input,.Contact-footer-form textarea{
+    text-align: right;
+    margin-top: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 12px 20px;
+    font-family: "Bahij TheSansArabic";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22.03px;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 1) ;
+    direction: rtl;
+}
+.Contact-footer-form textarea{
+    height: 165px;
+}
+form.Contact-footer-form,form.Contact-footer-form label{
+    display: flex;
+    flex-direction: column;
+
+}
+form.Contact-footer-form label{
+    font-family: "Bahij TheSansArabic";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.17px;
+    color: #FFFFFF;
+
+}
+.Contact-footer-content{
+    text-align: right;
+    width: 40%;
+}
+.Contact-footer-content h2{
+    font-family: "Bahij TheSansArabic";
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 68.68px;
+    color: #222222;
+    text-align: right;
+    margin-bottom: 20px;
+
+}
+html[lang="en"] .Contact-footer-content h2,html[lang="en"] .Contact-footer-content p,html[lang="en"] .Contact-footer-content h3,html[lang="en"] form.Contact-footer-form label,html[lang="en"] .Contact-footer-form input,html[lang="en"] .Contact-footer-form textarea{
+    text-align: left;
+}
+html[lang="en"] .Contact-info{
+    gap: 20px;
+}
+html[lang="en"] .Contact-footer-content-social{
+    flex-direction: row;
+}
+.Contact-footer-content h3{
+    font-family: "Bahij TheSansArabic";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 42.52px;
+    margin-top: 50px;
+    color: #222222;
+}
+form.Contact-footer-form{
+    padding: 42px 38px;
+    text-align: right;
+    background: linear-gradient(270deg, #391A52 2.82%, #3F1F58 10.17%, #593E6D 90.04%, #E6E3DD 236.36%);
+    border-radius: 23px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+   width: 40%;
+   height: fit-content;
+
+}
+.Contact-footer-form button{
+    padding: 13px;
+    background: #FFFFFF;
+    font-family: "Bahij TheSansArabic";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28.32px;
+    color: rgba(63, 26, 88, 1);
+    border: none;
+    border-radius: 48px;
+}
+.Contact-footer-form p{
+    font-family: "Bahij TheSansArabic";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 29.76px;
+    color: rgba(255, 255, 255, 1);
+
+}
+.Contact-footer-content p{
+    font-family: "Bahij TheSansArabic";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29.76px;
+    color: #222222;
+
+}
+.Contact-info {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  
+}
+.Contact-info-data h6{
+    font-family: "Bahij TheSansArabic";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28.32px;
+    color: rgba(34, 34, 34, 1);
+    margin-bottom: 12px !important;
+
+}
+.Contact-footer-content h6{
+    font-family: "Bahij TheSansArabic";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28.32px;
+    color: rgba(34, 34, 34, 1);
+    margin-bottom: 30px;
+    margin-top: 35px;
+}
+html[lang="en"] .Contact-footer-content h6{
+    text-align: left;
+}
+.Contact-footer-content-social {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+.ReactModalPortal .ReactModal__Overlay.ReactModal__Overlay--after-open {
+    background-color: #fff0 !important;
+}
+.ReactModal__Content.ReactModal__Content--after-open {
+    position: absolute;
+    width: 588px;
+    height: 330px;
+    inset: revert-layer !important;
+    top: 35% !important;
+    left: 35% !important;
+    border-radius: 20px !important;
+}
+.Contact-successfuly button,.Contact-error button{
+    background: none;
+    border: none;
+}
+.Contact-successfuly button img ,.Contact-error button img{
+    width: 35px;
+    height: 35px;
+
+}
+.Contact-successfuly-body ,.Contact-error-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.Contact-successfuly-body img{
+    width: 200px;
+}
+.Contact-footer-form input::placeholder,.Contact-footer-form textarea::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+.Contact-successfuly-body h4,.Contact-error-body h4{
+    font-family: "Bahij TheSansArabic";
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(63, 26, 88, 1);
+}
+.Contact-footer-content h6 img{
+    width: 24px;
+    height: 24px;
+
+}
+.Contact-footer-content a{
+    text-decoration: none;
+}
+.Contact-footer-content h6{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+@media screen and (max-width:  1024px){
+    .Contact-info-data {
+        width: 100%;
+    }
+    .Contact-footer-content{
+        width: 100%;
+    }
+    form.Contact-footer-form{
+        width: 80%;
+    }
+    .Contact-footer-container{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .Contact-info{
+        flex-direction: column;
+    }
+    .ReactModal__Content.ReactModal__Content--after-open{
+        width: 95%;
+        z-index: 22222;
+        left: 0 !important;
+    }
+}
